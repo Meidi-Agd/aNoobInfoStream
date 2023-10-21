@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Pacifico&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Dela Gothic One", sans-serif;
+}
+
+body {
+  width: 500px;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+h1 {
+  color: red;
+}
+
+section {
+  width: 98%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: solid yellow 10px;
+}
+
+#secSnap {
+  font-size: 16px;
+}
+#secSnap img {
+  width: 40%;
+  position: absolute;
+  top: 5px;
+}
+#secSnap h2 {
+  position: absolute;
+  bottom: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
